@@ -18,8 +18,6 @@ class LoginPage extends React.Component {
     render() {
       const { islogin } = this.state;
       return (
-
-        // eslint-disable-next-line react/jsx-filename-extension
         <div>
           {
             islogin ? <Message /> : <Button changeLoginState={this.changeLoginState} />
